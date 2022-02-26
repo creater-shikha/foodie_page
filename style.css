@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+ 
+    
+    font-family: 'Overlock', cursive;
+
+}
+.background{
+    width: 100vw;
+    height: 100vh;
+}
+.bg{
+    width: 100vw;
+    height: 100vh;
+}
+.left{
+    display: inline-block;
+    position:fixed;
+    left: 34px;
+    top: 12px;
+
+
+}
+.left img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+.mid{    display: inline-block;
+    position: fixed;
+    top: 14px;
+    left: 483px;
+    width: 40%;
+    margin: -5px auto;
+
+}
+ 
+
+.right{
+  
+    display: inline-block;
+    position:fixed;
+    right: 34px;
+    top: 12px;
+
+  
+}
+.btn{
+    margin: 2px 1px;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: pink;
+   font-family: 'Overlock', cursive;
+   outline: pink;
+   color: red;
+   border: 1px solid pink;
+   padding: 5px 10px;
+   margin-left: 10px;
+   border-radius: 10px;
+
+  
+}
+button:hover{
+    background-color: rgb(247, 7, 43);
+    color:rgb(248, 245, 245);
+}
+.navbar li{
+    display: inline-block;
+    
+    font-size: 24px;
+}
+.navbar li a{
+    text-decoration: none;
+    color:black;
+    padding: 34px 20px;
+   
+}
+.navbar li a:hover, .navbar li a:active{
+  text-decoration: underline;
+    color:rgb(150, 94, 94);
+    
+   
+}
+.container{
+    position: absolute;
+    top: 76px;
+    left: 49px;
+;    background-color: rgb(231, 231, 231);
+   opacity: 0.9;
+    margin: 97px 39px;
+    padding: 51px;
+    width: 33%;
+    height: 50vh;
+    border: 3px solid rgb(102, 136, 52);
+    border-radius:50%;
+}
+.container h1{
+    color: red;
+    text-align: center;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+
+.form_group input{
+  
+    font-family: 'Overlock', cursive;
+    font-size: 25px;
+    margin: 11px auto;
+    padding: 2px;
+    text-align: center;
+    display: block;
+    width: 369px;
+    border: 1px solid whitesmoke;
+    outline:rgb(248, 166, 166);
+    border-radius: 8px;
+  
+}
+.container .btn{
+    display: block;
+    width: 369px;
+margin: auto;
+  
+}
